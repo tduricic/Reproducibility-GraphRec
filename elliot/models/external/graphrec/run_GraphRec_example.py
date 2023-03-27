@@ -7,10 +7,10 @@ import numpy as np
 import time
 import random
 from collections import defaultdict
-from UV_Encoders import UV_Encoder
-from UV_Aggregators import UV_Aggregator
-from Social_Encoders import Social_Encoder
-from Social_Aggregators import Social_Aggregator
+from graphrec.UV_Encoders import UV_Encoder
+from graphrec.UV_Aggregators import UV_Aggregator
+from graphrec.Social_Encoders import Social_Encoder
+from graphrec.Social_Aggregators import Social_Aggregator
 import torch.nn.functional as F
 import torch.utils.data
 from sklearn.metrics import mean_squared_error
